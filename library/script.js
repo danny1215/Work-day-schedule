@@ -1,7 +1,6 @@
 console.log("am i linked");
 
-// display of time using moment js using time interval in one full day
-//  (1 day = 8.64e+7 milliseconds)
+// display of time using moment js using time interval.
 
 var currentDayNew =document.getElementById("currentDay");
 setInterval(function(){
@@ -11,4 +10,4 @@ setInterval(function(){
    
   currentDayNew.textContent = visibleTime;
 
-},8.64e+7)
+},1000)

@@ -32,7 +32,10 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 90%;
     border-top: 1px solid white;;
   }
   
@@ -70,3 +73,17 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  
+  footer {
+    padding-bottom: 5px;
+    font-size: 15px;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+   background-color: black;
+    color: red;
+   
+    text-align: center;
+    
+  }
