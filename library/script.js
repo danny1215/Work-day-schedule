@@ -8,6 +8,88 @@ var now =  parseInt(moment().format('HH'));
     console.log(now);
 
 // creating a variable for input text tags
+// creating an object of array
+
+// var theDay = [
+//     {
+//         id:"hour9Am",
+//         hour:"9",
+//         time:"9",
+//         meridiem:"Am",
+//         Input:"",
+//     },
+//     {
+//         id:"hour10Am",
+//         hour:"10",
+//         time:"10",
+//         meridiem:"Am",
+//         Input:"",
+//     },
+//     {
+//         id:"hour11Am",
+//         hour:"11",
+//         time:"11",
+//         meridiem:"Am",
+//         Input:"",
+//     },
+//     {
+//         id:"hour12Pm",
+//         hour:"12",
+//         time:"12",
+//         meridiem:"Pm",
+//         Input:"",
+//     },
+//     {
+//         id:"hour1Pm",
+//         hour:"1",
+//         time:"13",
+//         meridiem:"Pm",
+//        Input:"",
+//     },
+//     {
+//         id:"hour2Pm",
+//         hour:"2",
+//         time:"14",
+//         meridiem:"Pm",
+//         Input:"",
+//     },
+//     {
+//         id:"hour3Pm",
+//         hour:"3",
+//         time:"15",
+//         meridiem:"Pm",
+//         Input:"",
+//     },
+//     {
+//         id:"hour4Pm",
+//         hour:"4",
+//         time:"16",
+//         meridiem:"Pm",
+//         Input:"",
+//     },
+//     {
+//         id:"hour5Pm",
+//         hour:"5",
+//         time:"17",
+//         meridiem:"Pm",
+//         Input:"",
+//     }
+
+
+// ]
+
+
+// function saveRemineders(){
+//     localStorage.setItem("myDay",JSON.stringify(theDay));
+// }
+
+// function displayReminders(){
+//     theDay.forEach(function (this){
+//         $(`#${this.id}`).val(_this.Input):
+//     })
+// }
+// saveRemineders();
+
 
     var time09Am = $("#hour9Am");
     var time10Am = $("#hour10Am");
@@ -34,11 +116,16 @@ $("input").each( function () {
           $(this).addClass("present")
     
       }
-});
+})
+
+
+
+
+
 //  storing the input text to local storage.
 $("button").on("click", function () { 
     
-    localStorage.setItem("9Am", (time09Am.val()))
+    localStorage.setItem("9Am",(time09Am.val()))
     localStorage.setItem("10Am", (time10Am.val()))
     localStorage.setItem("11Am", (time11Am.val()))
     localStorage.setItem("12Am", (time12Pm.val()))
