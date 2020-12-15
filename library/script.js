@@ -1,6 +1,6 @@
 console.log("am i linked");
 
-// moment js formate and var declaration
+// moment js formate and var declaration for the header timer
     var toDay = moment().format('dddd,MMMM,Do');
 
     $("#currentDay").append(toDay);
@@ -8,6 +8,9 @@ console.log("am i linked");
     var now =  parseInt(moment().format('HH'));
         console.log(now);
     
+
+
+          
     // creating a variable for input text tags
         var time09Am = $("#hour9Am");
         var time10Am = $("#hour10Am");
@@ -28,27 +31,27 @@ console.log("am i linked");
            
          }
          if (scheduleTime > now) {
-             $(this).addClass("future")
+             $(this).addClass("future");
          
          }
           if  (scheduleTime === now) {
-              $(this).addClass("present")
+              $(this).addClass("present");
         
           }
-    })
+    });
     
      //  storing the input text(users) to local storage.
     $("button").on("click", function () { 
         
-         localStorage.setItem("9Am",(time09Am.val()))
-        localStorage.setItem("10Am", (time10Am.val()))
-        localStorage.setItem("11Am", (time11Am.val()))
-        localStorage.setItem("12Am", (time12Pm.val()))
-        localStorage.setItem("13Pm", (time01Pm.val()))
-        localStorage.setItem("14Pm", (time02Pm.val()))
-        localStorage.setItem("15Pm", (time03Pm.val()))
-        localStorage.setItem("16Pm", (time04Pm.val()))
-        localStorage.setItem("17Pm", (time05Pm.val()))
+         localStorage.setItem("9Am",(time09Am.val()));
+        localStorage.setItem("10Am", (time10Am.val()));
+        localStorage.setItem("11Am", (time11Am.val()));
+        localStorage.setItem("12Am", (time12Pm.val()));
+        localStorage.setItem("13Pm", (time01Pm.val()));
+        localStorage.setItem("14Pm", (time02Pm.val()));
+        localStorage.setItem("15Pm", (time03Pm.val()));
+        localStorage.setItem("16Pm", (time04Pm.val()));
+        localStorage.setItem("17Pm", (time05Pm.val()));
             
     
     
