@@ -1,4 +1,4 @@
-# danielHomeWork
+# daniel day scheduler
 ### by Daniel mestawat
 ### Description
 This Application can be used in any browser available. The purpose of this application is to provide saving a schedule for a day time(that is 8 hour shift).
