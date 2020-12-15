@@ -28,4 +28,6 @@ The application has a timer specification color coded.
 ## LINK TO THE REPOSITORY
 -The link is [Daniel Day Planner](https://github.com/danny1215/danielHomeWork5)
 
+## SCREENSHOTS
 
+![Screenshot (111)](https://user-images.githubusercontent.com/59859358/102247300-c89ecc00-3ecd-11eb-9ee4-6be0d54b0939.png)
