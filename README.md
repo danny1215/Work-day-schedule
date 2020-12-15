@@ -26,6 +26,6 @@ The application has a timer specification color coded.
 - J QUERY
 
 ## LINK TO THE REPOSITORY
--
+-The link is [Daniel Day Planner](
 
 
