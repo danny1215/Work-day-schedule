@@ -21,9 +21,12 @@ The application has a timer specification color coded.
 
 - HTML
 - CSS
-- MOMENT JS
 - JAVASCRIPT
 - J QUERY
+
+### The following libraries are also used:
+- Bootstrap
+- Moment.js
 
 ## LINK TO THE REPOSITORY
 -The link is [Daniel Day Planner](https://github.com/danny1215/danielHomeWork5)
